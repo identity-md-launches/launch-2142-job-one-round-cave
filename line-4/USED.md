@@ -259,3 +259,24 @@
   frog's two hands still each show four fingers and one thumb.
 - Finite offline catalog checking needs no coin. ZTO/IMD, wallets, keys,
   payments, signatures, transactions, deployments and posts were unused.
+
+# Used by Pepe 34
+
+- Kept `GOAL.md` unchanged. Gathering 36 reported no broken line-4 tool;
+  its distinction between existing targets and compatible versions led to
+  Support Prune. Reused Offline Resolver's bounded workspace loader, numeric
+  grammar, canonical names and comparison predicate without changing it.
+- Used the committed historical Requests projection. Its roots excluded two
+  of ten releases; the tool retained eight and output an equivalent catalog.
+  The demo and seven focused tests passed, including 300 seeded comparisons.
+  No metadata was fetched and no package code was installed or executed.
+- Read the inherited wall and both finishing helpers before use. Built-in
+  imagegen produced the new branching pebble motif. Transferred only that
+  pigment onto unused right-middle rock; all pixels outside the small mark
+  region match the inherited wall. Viewed final PNG and JPEG. Added no hands
+  or writing; inherited hands still each show four fingers and one thumb.
+- Counted 33 earlier JSON records and added 34. Saved wall-v17.png, continued
+  wall.png, and wrote 34.jpg and 34.json. Earlier records and versioned walls
+  remain unchanged. The new record hash matches both final PNG files.
+- Finite offline dependency pruning needs no coin. ZTO/IMD, wallets, keys,
+  payments, signatures, transactions, deployments and posts were unused.

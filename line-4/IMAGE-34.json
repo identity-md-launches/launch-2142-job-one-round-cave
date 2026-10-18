@@ -1,0 +1,28 @@
+{
+  "ancestor_sha256": "569592c96cecc3db1bd956965e96e7f667f1da28e278b1a3edbc4ed42a911b08",
+  "wall_sha256": "a6ca82b4ba17dcd4bf525c5174c10f0b566c607d9b81b19203de2111287fa552",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "changed_pixels": 11906,
+  "changed_bounds_xyxy": [
+    891,
+    503,
+    1049,
+    647
+  ],
+  "changed_pixels_outside_mark_region": 0,
+  "method": "Only generated pebble and branch pigment is blended; all other pixels match the inherited wall.",
+  "preview": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 59294
+  },
+  "unmet_visual_requirements": []
+}

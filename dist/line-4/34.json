@@ -1,0 +1,30 @@
+{
+  "name": "The Supported Branch",
+  "image": "https://api.imd.fun/artifacts/a6ca82b4ba17dcd4bf525c5174c10f0b566c607d9b81b19203de2111287fa552",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 34
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Support Prune"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A branch without a fitting stone fades while supported choices remain."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Finite offline dependency resolution"
+    }
+  ]
+}
