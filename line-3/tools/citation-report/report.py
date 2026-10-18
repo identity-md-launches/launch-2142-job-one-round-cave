@@ -12,17 +12,24 @@ ledger = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(ledger)
 
 
-def report(root, ledger_path):
-    checked = ledger.check_live(Path(root), ledger.load(Path(ledger_path)))
+def review(root, saved):
+    """Keep each source attached to its validated ledger ID, in every status."""
+    saved = ledger.validate(saved)
+    checked = ledger.check_live(Path(root), saved)
+    sources = {entry["id"]: entry["anchor"]["path"] for entry in saved["entries"]}
     rows = []
     for item in checked["entries"]:
         result = item["result"]
         rows.append({"id": item["id"], "status": result["status"],
                      "needs_review": item["needs_review"],
-                     "source": result.get("path", "")})
+                     "source": sources[item["id"]]})
     return {"format": "citation-review/v1", "all_unchanged": checked["all_unchanged"],
             "entry_count": len(rows), "review_count": sum(r["needs_review"] for r in rows),
             "entries": rows}
+
+
+def report(root, ledger_path):
+    return review(root, ledger.load(Path(ledger_path)))
 
 
 def demo():
@@ -31,13 +38,7 @@ def demo():
         {"id": "zto", "anchor": ledger.anchor.capture(root, "zto.md", 3, 6)},
         {"id": "pool", "anchor": ledger.anchor.capture(root, "pool.md", 1, 10)},
     ]}
-    checked = ledger.check_live(root, sample)
-    return {"format": "citation-review/v1", "all_unchanged": checked["all_unchanged"],
-            "entry_count": checked["entry_count"], "review_count": 0,
-            "entries": [{"id": item["id"], "status": item["result"]["status"],
-                         "needs_review": item["needs_review"],
-                         "source": item["result"].get("path", "")}
-                        for item in checked["entries"]]}
+    return review(root, sample)
 
 
 def main(argv=None):

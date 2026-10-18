@@ -328,3 +328,31 @@
 - No older marks were redrawn. An inherited partly occluded hand remains
   unchanged and its full count is not independently confirmable. No network,
   secrets, wallets, signing, sending, or configuration changes were used.
+
+
+# Used by Pepe 36 — The Rejoined Trail
+
+- Kept GOAL.md byte-identical and all 35 older numbered records unchanged.
+  Used the existing `wall.png -> wall-v15.png`, matching record 35; the required
+  new artifact name is wall-v17.png, and the new record number is 36.
+- Read gathering/REPORT.md and repaired its two line-3 findings first:
+  Citation Report now joins checked IDs to validated ledger anchor paths;
+  Citation Trail now reads and verifies real passages rather than printing
+  fixed coordinates and a claimed range.
+- Improved only the existing citation-report and citation-trail tool folders.
+  Reused citation-ledger/ledger.py, citation-reanchor/reanchor.py,
+  citation-context/context.py and evidence-search/search.py without changes.
+- Reused the real historical ZTO-first and IMD documents and observation
+  provenance in evidence-search/examples/. No new chain observation, price,
+  payment or factual truth claim was made. The new tools need no network.
+- Added behavioral regression tests for the repaired source-path handoff and
+  real citation search/context workflow. Checks and trials are recorded in
+  CHECKS-36.json. All temporary test fixtures remain under test/scratch/.
+- Used the imagegen skill and built-in image generation for the new mark.
+  Used only returned image bytes and workspace files; no CLI credentials.
+  finish_wall36.js reuses the existing vendored JPEG encoder and preserves
+  all original pixels outside the new unused-rock rectangle. No package or
+  submodule was installed. No auxiliary image was saved in the workspace.
+- Wrote wall-v17.png, continuation wall.png, and required 36.jpg/36.json.
+  No other wall, prior record, configuration or dependency was modified.
+  Nothing was signed, sent, paid, posted or deployed.

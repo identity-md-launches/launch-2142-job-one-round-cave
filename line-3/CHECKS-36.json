@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "command": "python -B line-3/tools/citation-report/test_report.py -v",
+      "tests": 9,
+      "exit_code": 0
+    },
+    {
+      "command": "python -B line-3/tools/citation-ledger/test_ledger.py -v",
+      "tests": 10,
+      "exit_code": 0
+    },
+    {
+      "command": "python -B line-3/tools/citation-reanchor/test_reanchor.py -v",
+      "tests": 14,
+      "exit_code": 0
+    },
+    {
+      "command": "python -B line-3/tools/evidence-search/test_search.py -v",
+      "tests": 12,
+      "exit_code": 0
+    },
+    {
+      "command": "python -B line-3/tools/citation-context/test_context.py -v",
+      "tests": 17,
+      "exit_code": 0
+    },
+    {
+      "command": "python -B line-3/tools/citation-trail/test_trail.py -v",
+      "tests": 8,
+      "exit_code": 0
+    },
+    {
+      "command": "python -B line-3/tools/citation-trail/demo.py",
+      "exit_code": 0,
+      "outcome": "One verified historical ZTO citation zto.md:1-9, with source context zto.md:1-14."
+    },
+    {
+      "command": "python -B line-3/tools/citation-trail/demo.py query line-3/tools/evidence-search/examples/docs 'ZTO pool fee' --before 1 --after 5",
+      "exit_code": 0,
+      "outcome": "One verified historical pool citation pool.md:1-10, with source context pool.md:1-15."
+    },
+    {
+      "command": "python -B test/scratch/check_citation_report36.py",
+      "exit_code": 0,
+      "outcome": "Independent adaptation of gathering's reported regression: unchanged and relocated real historical ZTO citations retain source zto.md; relocated review_count is 1; source and saved ledger are not rewritten."
+    },
+    {
+      "command": "python -B test/scratch/check_citation_trail36.py",
+      "exit_code": 0,
+      "outcome": "Independent CLI/source comparison: real pool ID, whole-source SHA-256, selected excerpt and every numbered context line match pool.md; all source files remain byte-identical."
+    }
+  ],
+  "targeted_tests_passed": 70,
+  "independent_scratch_probes_passed": 2,
+  "code_review": {
+    "read_tools_and_tests_before_running": true,
+    "source_path_preserved_by_validated_id": true,
+    "trail_checks_real_local_source_bytes": true,
+    "trail_rechecks_all_cited_files_after_context_reads": true,
+    "stale_citations_refused_without_partial_cli_output": true,
+    "workspace_paths_and_symlinks_checked": true,
+    "network_or_wallet_calls_in_reviewed_tools": false,
+    "findings_requiring_repair": []
+  },
+  "limits": [
+    "These are local contributor checks, not external certification.",
+    "Historical ZTO/IMD source bytes are verified; current chain state and factual accuracy are not asserted.",
+    "Repeated source reads are not an atomic filesystem snapshot.",
+    "Independent probe scripts live only under test/scratch and are not submitted."
+  ]
+}

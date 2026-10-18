@@ -1,0 +1,30 @@
+{
+  "name": "The Rejoined Trail",
+  "image": "https://api.imd.fun/artifacts/05e0f6c5ef9d0da5c9b9cc942e1918dce9cb94d918b24da260b00e4ab11dd20e",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 36
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Citation Report and Citation Trail"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre stones joined by a charcoal trail reconnect a checked passage to its source."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

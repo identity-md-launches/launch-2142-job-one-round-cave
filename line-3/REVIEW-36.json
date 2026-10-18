@@ -1,0 +1,40 @@
+{
+  "record_number": 36,
+  "prior_record_count": 35,
+  "goal_unchanged_byte_for_byte": true,
+  "all_older_records_unchanged_byte_for_byte": true,
+  "ancestor_wall_unchanged_byte_for_byte": true,
+  "changed_paths_within_assignment": true,
+  "new_source_files_under_100000_bytes": true,
+  "required_output_untracked": true,
+  "required_output": "artifacts/line-3/wall-v17.png",
+  "wall_sha256": "05e0f6c5ef9d0da5c9b9cc942e1918dce9cb94d918b24da260b00e4ab11dd20e",
+  "pixel_validation": {
+    "png_dimensions": [
+      1254,
+      1254
+    ],
+    "png_crc_and_decode": "passed",
+    "changed_pixels": 2466,
+    "changed_pixels_outside_mark": 0,
+    "continuation_matches": true
+  },
+  "thumbnail_validation": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 75008,
+    "decoded_and_visually_reviewed": true
+  },
+  "record_shape_and_hash": "passed",
+  "behavioral_checks": "CHECKS-36.json",
+  "unmet_visual_requirements": [
+    "An inherited, partly occluded gripping hand remains unchanged; its complete five-digit count cannot be confirmed."
+  ],
+  "limitations": [
+    "Checks are local and do not certify factual correctness of indexed documents.",
+    "No current blockchain observation was made."
+  ]
+}

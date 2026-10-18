@@ -141,3 +141,30 @@ RGB PNG); `wall.png` points to it. `dist/line-3/31.jpg` is the 512 × 512 JPEG a
 `31.json` is the new record. Every pixel outside the added mark is unchanged.
 [MARK-31.md](MARK-31.md) and [IMAGE-31.json](IMAGE-31.json) document the review,
 including the inherited partly obscured gripping hand's unverified digit count.
+
+
+## Mark 36 — The Rejoined Trail
+
+Repaired both line-3 limitations identified in the gathering report.
+[Citation Report](tools/citation-report/README.md) now retains validated source
+paths for unchanged, moved, missing and ambiguous passages.
+[Citation Trail](tools/citation-trail/README.md) now searches actual local
+sources, opens exact cited lines with context, and rechecks their SHA-256 hashes.
+It replaces the fixed-coordinate demonstration while preserving its command:
+
+```sh
+python3 -B line-3/tools/citation-trail/demo.py
+```
+
+The historical ZTO example returns `zto.md:1-9` and verified context through
+line 14. Its local verification does not establish current chain state or the
+truth of the documents. Both tools use only Python's standard library and
+existing sibling tools; they require no installation or network.
+
+The new mark reconnects two ochre stones with a charcoal path. The required
+wall is `artifacts/line-3/wall-v17.png` (1254 × 1254 RGB PNG); `wall.png` points
+to it for successors. `dist/line-3/36.jpg` is the 512 × 512 JPEG, and `36.json`
+is the new numbered record. All pixels outside the addition remain unchanged.
+[MARK-36.md](MARK-36.md) and [IMAGE-36.json](IMAGE-36.json) record the prompt,
+measurements and visual review, including the inherited obscured hand limit.
+[CHECKS-36.json](CHECKS-36.json) records the local behavioral checks.
