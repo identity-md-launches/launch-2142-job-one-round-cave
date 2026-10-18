@@ -1,0 +1,145 @@
+{
+  "ordered": {
+    "schema": "candidate-order/v1",
+    "needs_review": false,
+    "inputs": {
+      "base": {
+        "sha256": "7c10c3da34618c0438c27d6837c847acfc7dd59fa2a82f573d8d5e5ae54b2f07",
+        "files": 1,
+        "directories": 0,
+        "bytes": 19
+      },
+      "ours": {
+        "sha256": "0c511d38b5b5e490901f0e2033ebd720e401517767670a5268c3dcce83248aba",
+        "files": 1,
+        "directories": 0,
+        "bytes": 65
+      },
+      "theirs": {
+        "sha256": "bdb4692e099a011d1c64f8af2af85e202947c9171847b9b07122d56c6b915c51",
+        "files": 1,
+        "directories": 0,
+        "bytes": 37
+      },
+      "candidate": {
+        "sha256": "25e9461ad0be6efb754f341b90519351a46a0a4841fc436ee2f91a13162ea8e4",
+        "files": 1,
+        "directories": 0,
+        "bytes": 83
+      }
+    },
+    "counts": {
+      "checked": 1,
+      "review": 0,
+      "blocked": 0
+    },
+    "files": [
+      {
+        "path": "guide.md",
+        "status": "checked",
+        "branches": {
+          "ours": {
+            "status": "checked",
+            "issue": null,
+            "selected_line_identities": 2,
+            "trace_lines": 2,
+            "matched_prefix_lines": 2,
+            "missing_occurrences": 0,
+            "first_unmatched": null
+          },
+          "theirs": {
+            "status": "checked",
+            "issue": null,
+            "selected_line_identities": 1,
+            "trace_lines": 1,
+            "matched_prefix_lines": 1,
+            "missing_occurrences": 0,
+            "first_unmatched": null
+          }
+        }
+      }
+    ],
+    "limits": [
+      "For each branch, select line identities whose exact count grew from base; retain all their branch occurrences in order.",
+      "Each branch trace must be a subsequence of the candidate; unrelated candidate lines may interleave freely.",
+      "No ordering constraint between independent branches; shared occurrences may satisfy both traces.",
+      "Untouched lines, net-zero moves, deletions, empty-file presence, syntax and semantics are not checked.",
+      "Intentional reordering or removal can require review; checked means this policy passed, not approval.",
+      "Exact line endings matter. Line hashes omit source text but can reveal guessable content.",
+      "Reads require stable bounded UTF-8 trees; no atomic snapshot or protection against path races."
+    ]
+  },
+  "same_counts_reversed": {
+    "schema": "candidate-order/v1",
+    "needs_review": true,
+    "inputs": {
+      "base": {
+        "sha256": "7c10c3da34618c0438c27d6837c847acfc7dd59fa2a82f573d8d5e5ae54b2f07",
+        "files": 1,
+        "directories": 0,
+        "bytes": 19
+      },
+      "ours": {
+        "sha256": "0c511d38b5b5e490901f0e2033ebd720e401517767670a5268c3dcce83248aba",
+        "files": 1,
+        "directories": 0,
+        "bytes": 65
+      },
+      "theirs": {
+        "sha256": "bdb4692e099a011d1c64f8af2af85e202947c9171847b9b07122d56c6b915c51",
+        "files": 1,
+        "directories": 0,
+        "bytes": 37
+      },
+      "candidate": {
+        "sha256": "62f4bb072ac7d6e4f42ace3d0449b8878bb1fdaeed14e6b7242664ccbe0ed0b2",
+        "files": 1,
+        "directories": 0,
+        "bytes": 83
+      }
+    },
+    "counts": {
+      "checked": 0,
+      "review": 1,
+      "blocked": 0
+    },
+    "files": [
+      {
+        "path": "guide.md",
+        "status": "review",
+        "branches": {
+          "ours": {
+            "status": "review",
+            "issue": "order_changed",
+            "selected_line_identities": 2,
+            "trace_lines": 2,
+            "matched_prefix_lines": 1,
+            "missing_occurrences": 0,
+            "first_unmatched": {
+              "branch_line": 3,
+              "line_sha256": "48e01ee7a18c1be408a6b773e62872c577b06e2c17071a0b71664833678217ec"
+            }
+          },
+          "theirs": {
+            "status": "checked",
+            "issue": null,
+            "selected_line_identities": 1,
+            "trace_lines": 1,
+            "matched_prefix_lines": 1,
+            "missing_occurrences": 0,
+            "first_unmatched": null
+          }
+        }
+      }
+    ],
+    "limits": [
+      "For each branch, select line identities whose exact count grew from base; retain all their branch occurrences in order.",
+      "Each branch trace must be a subsequence of the candidate; unrelated candidate lines may interleave freely.",
+      "No ordering constraint between independent branches; shared occurrences may satisfy both traces.",
+      "Untouched lines, net-zero moves, deletions, empty-file presence, syntax and semantics are not checked.",
+      "Intentional reordering or removal can require review; checked means this policy passed, not approval.",
+      "Exact line endings matter. Line hashes omit source text but can reveal guessable content.",
+      "Reads require stable bounded UTF-8 trees; no atomic snapshot or protection against path races."
+    ]
+  }
+}

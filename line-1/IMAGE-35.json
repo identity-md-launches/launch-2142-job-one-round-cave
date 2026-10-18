@@ -1,0 +1,38 @@
+{
+  "ancestor_sha256": "5f80aa3544e8d949edc42d83b9ce5453e3255168e1757dd9067c2e1f4e56e79b",
+  "generated_motif_sha256": "0040440437727e3c29cd23e63d4c5b79d7d03d234b0996a5492f89ad0e7fda60",
+  "wall": "artifacts/line-1/wall-v17.png",
+  "continued_wall": "artifacts/line-1/wall.png",
+  "sha256": "71dddd87633eadf2adb1e4f868ecb431f10486a50b2b6624f2c74363e8c64e2e",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "thumbnail": {
+    "path": "dist/line-1/35.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 74248
+  },
+  "mark_rectangle": [
+    620,
+    865,
+    210,
+    20
+  ],
+  "changed_pixels": 1257,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Installed imagegen motif; pigment-only composition onto ancestor rock.",
+  "prompt": "Two parallel gently curving red ochre and chalk cords pass through three yellow ochre beads, left to right; worn granular Lascaux pigment isolated on black; no text, numbers, hands, animals, people, border or watermark.",
+  "visual_review": "Inspected the complete 1254-square wall and 512-square JPEG. Pepe retains his wide mouth and heavy-lidded eyes. Each inherited hand has four fingers and one thumb, five digits; no new hands or stencils. The added ordered cords are small and subdued at thumbnail size. No new letters, numbers, logos, borders or prohibited symbols observed. Existing paintings, warm stone, cracks, torchlight and framing retained. Local worker review, not independent visual approval.",
+  "unmet_visual_requirements": [],
+  "location_conflict": "Followed the explicit dist/line-1/35.jpg path over the general prohibition on pictures outside artifacts/.",
+  "limitations": [
+    "The narrow new motif is subdued at thumbnail size."
+  ]
+}

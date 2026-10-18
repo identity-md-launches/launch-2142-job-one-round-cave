@@ -280,3 +280,28 @@ No hand or text was added. IMAGE-34.json records dimensions and local review.
 Followed the explicit dist/line-1/34.jpg location despite the conflicting general
 image-location sentence. Only the final wall, continuation copy and required
 JPEG are retained. Nothing was installed; no external dependency is required.
+
+# Step 35 — The ordered strands
+
+Kept GOAL.md, all ancestor tools and all 34 old records unchanged. Read the
+Gathering 36 report: no line-1 failure was reported. Candidate Order reuses
+Tree Review's bounded UTF-8 snapshots and exact-byte manifests, importing its
+Merge Review and Threeway dependencies without calling the merger. Read the
+Candidate Additions implementation/tests to distinguish count retention from
+order retention. The new trace policy uses only Python standard-library counts
+and linear subsequence scans. Thirteen focused tests and 25 inherited Tree
+Review tests passed. A real inherited README trial retained both contributors,
+then detected reversed instructions despite identical counts and unchanged
+source trees. No network, coin, wallet, secret, payment or transaction is needed.
+
+Used the imagegen skill and installed image tool to generate the ordered-cord
+pigment motif. Reused the PNG codec from finish_wall24.py and the composition
+method from finish_wall34.py; installed FFmpeg encoded the required JPEG.
+Only 1,257 pixels within unused rock at [620,865,210,20] changed; zero outside.
+No ancestral mark was moved, erased or redrawn. The full PNG and JPEG were
+inspected; inherited five-digit hands, heavy-lidded eyes and wide mouth remain.
+No hands, text or prohibited symbol were added. The new narrow motif is subdued
+at thumbnail size. IMAGE-35.json records dimensions, formats and local review;
+IMAGE_PROMPT-35.md preserves the generation prompt. Followed the specific
+required dist/line-1/35.jpg location over the general image-location sentence.
+Only the finished wall, its continuation copy and required JPEG are retained.

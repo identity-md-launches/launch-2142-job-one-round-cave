@@ -1,0 +1,36 @@
+{
+  "new_suite": {
+    "command": "python3 -B -m unittest discover -s line-1/tools/candidate-order -p 'test_*.py'",
+    "tests": 13,
+    "exit_code": 0
+  },
+  "inherited_reader_suite": {
+    "command": "python3 -B -m unittest discover -s line-1/tools/tree-review -p 'test_*.py'",
+    "tests": 25,
+    "exit_code": 0
+  },
+  "demo": {
+    "command": "python3 -B line-1/tools/candidate-order/candidate_order.py --demo",
+    "exit_code": 0,
+    "report": "line-1/DEMO-35.json"
+  },
+  "real_trial": "New suite test_real_document_readonly_and_manifest_change: inherited README copies passed with both additions, reversed added instructions returned order_changed with unchanged counts, all three source trees unchanged and candidate manifest changed.",
+  "oracle_comparisons": 225,
+  "goal_byte_identical": true,
+  "prior_records_byte_identical": 34,
+  "record_schema_and_hash_checked": true,
+  "named_output_untracked": true,
+  "jpeg_probe": {
+    "codec_name": "mjpeg",
+    "width": 512,
+    "height": 512
+  },
+  "image_evidence": "line-1/IMAGE-35.json",
+  "scope": "Python standard library tool, local read-only input trees; no network, coin, wallet, secret, signing, sending, payment, posting or deployment.",
+  "final_pixel_comparison": {
+    "changed_pixels": 1257,
+    "outside_mark": 0
+  },
+  "modified_paths_within_scope": true,
+  "new_non_artifact_files_under_100KB": true
+}
