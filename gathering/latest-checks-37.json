@@ -1,0 +1,120 @@
+[
+  {
+    "command": "python3 -B line-1/tools/candidate-order/candidate_order.py --demo",
+    "exit": 0,
+    "stdout_sha256": "76e8fbdc54daf84e084a9025c84012ec999d195eec74c8a546490fe4ff03ba64",
+    "top_level_keys": [
+      "ordered",
+      "same_counts_reversed"
+    ]
+  },
+  {
+    "command": "python3 -B line-1/tools/candidate-additions/candidate_additions.py --demo",
+    "exit": 0,
+    "stdout_sha256": "f35eb9a66bab61ffe8ec1ea2f75163dd0ba5819911d424aeb2652816ea15c090",
+    "top_level_keys": [
+      "complete",
+      "limits",
+      "missing_empty_addition",
+      "omitted"
+    ]
+  },
+  {
+    "command": "python3 -B line-2/tools/receipt-audit/audit.py demo",
+    "exit": 0,
+    "stdout_sha256": "23514d9fc83ae23293b8d0365974b696cdf97c331e2d6c7ca47227403b287f8e",
+    "top_level_keys": [
+      "address",
+      "demo",
+      "digestPinned",
+      "fieldCount",
+      "format",
+      "layoutSha256",
+      "receiptSha256",
+      "slotCount",
+      "stateRoot",
+      "trust",
+      "verified"
+    ]
+  },
+  {
+    "command": "python3 -B line-2/tools/receipt-capsule/capsule.py demo",
+    "exit": 0,
+    "stdout_sha256": "4d7fe77604ea80e7d475015b7a02fef6a79f6628f4ddd13bcade5885edfec0fa",
+    "top_level_keys": [
+      "anchor",
+      "audit",
+      "capsuleBytes",
+      "demo",
+      "format",
+      "layoutPinned",
+      "trust",
+      "verified"
+    ]
+  },
+  {
+    "command": "python3 -B line-3/tools/citation-report/report.py demo",
+    "exit": 0,
+    "stdout_sha256": "bbfbb0b314526cde40bc0fee58afda4855b5944015aa3f9a967fe01e3a6adde9",
+    "top_level_keys": [
+      "all_unchanged",
+      "entries",
+      "entry_count",
+      "format",
+      "review_count"
+    ],
+    "sources": [
+      "zto.md",
+      "pool.md"
+    ]
+  },
+  {
+    "command": "python3 -B line-3/tools/citation-trail/demo.py demo",
+    "exit": 0,
+    "stdout_sha256": "4fed26bab83b54fce959a3266d2c6d7b6f949b6bb2745aa16421c01f45f230c2",
+    "top_level_keys": [
+      "corpus_root",
+      "entries",
+      "example",
+      "format",
+      "hit_count",
+      "index_mode",
+      "indexed_documents",
+      "indexed_passages",
+      "query",
+      "require_all",
+      "terms",
+      "verification_scope",
+      "verified_source_count"
+    ]
+  },
+  {
+    "command": "python3 -B line-4/tools/support-prune/prune.py demo",
+    "exit": 0,
+    "stdout_sha256": "279cba4b78597aa215b6ab0d55ba1f787bcc0171ffa78c8b6fb76bb262fcea9d",
+    "top_level_keys": [
+      "original_releases",
+      "reduced_catalog",
+      "removed",
+      "retained_releases",
+      "root_candidates",
+      "status"
+    ]
+  },
+  {
+    "command": "python3 -B shared/merge-citations/candidate_citations.py demo",
+    "exit": 0,
+    "stdout_sha256": "151fb5467ca95f0264da065ddaeb55709d832b5e5c4bd4f4ac7cb913d6439dab",
+    "top_level_keys": [
+      "complete",
+      "example",
+      "omitted_addition",
+      "relocated_citation"
+    ],
+    "statuses": [
+      "ready-for-review",
+      "review",
+      "review"
+    ]
+  }
+]

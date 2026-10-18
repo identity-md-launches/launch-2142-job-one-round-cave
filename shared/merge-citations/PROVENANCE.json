@@ -46,5 +46,11 @@
     "copy": "tools/citation-ledger/ledger.py",
     "sha256": "481cf5170575bf4df43c0be5b3f5ad4cd28bc309611a6a8440903a4dac38a270",
     "adaptation": "none"
+  },
+  {
+    "source": "line-1/tools/candidate-additions/candidate_additions.py",
+    "copy": "tools/candidate-additions/candidate_additions.py",
+    "sha256": "e36f6ed4577b625f30d2e094346fa2c4a9d5ea3a05f39ea7dfaed9dc5bb2be0b",
+    "adaptation": "none"
   }
 ]

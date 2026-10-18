@@ -1,0 +1,99 @@
+{
+  "baseline": {
+    "format": "catalog-health-evidence/v1",
+    "catalog_sha256": "3c4446c2dc72a73c78e79de6a6f6e46737b009b42ab92895771738ba8eec161f",
+    "health": {
+      "packages": 5,
+      "releases": 10,
+      "missing_dependency_targets": [],
+      "healthy": true
+    },
+    "documents": [
+      {
+        "path": "catalog-health.md",
+        "text": "# Catalog reference inspection\nNormalized catalog SHA-256: 3c4446c2dc72a73c78e79de6a6f6e46737b009b42ab92895771738ba8eec161f\nScope: every root and every release, including unselected releases.\nThis checks target package existence only, not compatible versions or installability.\nHealthy means no missing target names; it is not a resolver result.\n\nPackages: 5\nReleases: 10\nReference targets complete: true\nNo missing dependency targets in this finite catalog.\n",
+        "sha256": "bddced17c09a41995ad298ee9e6dae8f6235d3e3ee112265eb0019189408f8f4"
+      }
+    ],
+    "search": {
+      "format": "evidence-search-results/v1",
+      "query": "missing dependency",
+      "terms": [
+        "dependency",
+        "missing"
+      ],
+      "require_all": false,
+      "indexed_documents": 1,
+      "indexed_passages": 2,
+      "hits": [
+        {
+          "path": "catalog-health.md",
+          "line_start": 9,
+          "line_end": 10,
+          "citation": "catalog-health.md:9-10",
+          "sha256": "bddced17c09a41995ad298ee9e6dae8f6235d3e3ee112265eb0019189408f8f4",
+          "source_verified": false,
+          "score": 0.49591463,
+          "matched_terms": [
+            "dependency",
+            "missing"
+          ],
+          "text": "Reference targets complete: true\nNo missing dependency targets in this finite catalog."
+        }
+      ]
+    },
+    "trust": "Exact citations identify regenerated diagnostic bytes. They do not authenticate catalogs or prove compatibility, freshness, publisher trust, or factual support."
+  },
+  "injected_missing_target": {
+    "format": "catalog-health-evidence/v1",
+    "catalog_sha256": "9b52a4d3ff7f7f6b579f81558fb1ace7cc01b77aa0666bc1a6b654597d94afb7",
+    "health": {
+      "packages": 5,
+      "releases": 10,
+      "missing_dependency_targets": [
+        {
+          "source": "requests@2.32.5",
+          "dependency": "missing-package",
+          "constraint": ">=1"
+        }
+      ],
+      "healthy": false
+    },
+    "documents": [
+      {
+        "path": "catalog-health.md",
+        "text": "# Catalog reference inspection\nNormalized catalog SHA-256: 9b52a4d3ff7f7f6b579f81558fb1ace7cc01b77aa0666bc1a6b654597d94afb7\nScope: every root and every release, including unselected releases.\nThis checks target package existence only, not compatible versions or installability.\nHealthy means no missing target names; it is not a resolver result.\n\nPackages: 5\nReleases: 10\nReference targets complete: false\nMissing dependency target: \"missing-package\"; source \"requests@2.32.5\"; constraint \">=1\"\n",
+        "sha256": "329d0d2b1449334f93d2cb44709be4ab7fed0bf0aea2335e9c5d8c6360b15e87"
+      }
+    ],
+    "search": {
+      "format": "evidence-search-results/v1",
+      "query": "missing dependency",
+      "terms": [
+        "dependency",
+        "missing"
+      ],
+      "require_all": false,
+      "indexed_documents": 1,
+      "indexed_passages": 2,
+      "hits": [
+        {
+          "path": "catalog-health.md",
+          "line_start": 9,
+          "line_end": 10,
+          "citation": "catalog-health.md:9-10",
+          "sha256": "329d0d2b1449334f93d2cb44709be4ab7fed0bf0aea2335e9c5d8c6360b15e87",
+          "source_verified": false,
+          "score": 0.53835562,
+          "matched_terms": [
+            "dependency",
+            "missing"
+          ],
+          "text": "Reference targets complete: false\nMissing dependency target: \"missing-package\"; source \"requests@2.32.5\"; constraint \">=1\""
+        }
+      ]
+    },
+    "trust": "Exact citations identify regenerated diagnostic bytes. They do not authenticate catalogs or prove compatibility, freshness, publisher trust, or factual support."
+  },
+  "demo": "Historical Requests projection plus one injected missing-package edge in memory; no registry or current package claim."
+}

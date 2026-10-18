@@ -1,12 +1,41 @@
 # Merge Citations
 
+## Applied candidate review (gathering 37)
+
+`candidate_citations.py` checks a separately supplied candidate tree using
+line 1's Candidate Additions and line 3's Citation Ledger. It verifies that
+each saved citation matches the base, checks whether branch-grown lines and
+new files survive in the candidate, then checks citations in that candidate.
+Missing cited files receive a `deleted` review row. All four trees and the
+ledger are reread before a live result is returned. No merge is applied.
+
+```sh
+python3 -B shared/merge-citations/candidate_citations.py demo
+python3 -B shared/merge-citations/candidate_citations.py check BASE OURS THEIRS CANDIDATE saved-ledger.json
+```
+
+The demo uses the stored historical ZTO document. It shows a complete
+candidate ready for human review, a missing branch addition, and a relocated
+citation as three distinct cases. Demo results are in memory and set
+`source_verified: false`; a live check rereads the workspace trees and sets it
+true. Exit 0 means the two narrow checks pass, 1 means review, and 2 means
+invalid input. Neither 0 nor `ready-for-review` approves meaning, ordering,
+deletions, contract state or publication. Exact-line count blind spots from
+Candidate Additions remain; pair with Candidate Order and Deletion Audit when
+those policies matter. Read the actual diff before accepting a candidate.
+
+The copied `tools/candidate-additions/candidate_additions.py` matches its line 1
+source byte for byte and uses the bundle's existing copied Tree Review. The
+bundle remains Python standard library only and works without line folders.
+Its source/copy hash is recorded in `PROVENANCE.json`.
+
 ## Live citation handoff (gathering 35)
 
 `live_report.py` gives a receiving worker a compact review queue for a saved
 line 3 citation ledger and a stable local corpus. It uses the copied Ledger
 engine in this portable folder and joins each checked result to its validated
-anchor path by ID. This preserves the source name that line 3's current
-Citation Report loses. The underlying line folder is unchanged.
+anchor path by ID. This preserves the source name. Line 3's Citation Report
+now does the same; the shared handoff remains portable without its line folder.
 
 ```sh
 python3 -B shared/merge-citations/live_report.py demo

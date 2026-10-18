@@ -1,5 +1,10 @@
 # Shared worker tools
 
+Gathering 37 adds [Applied Candidate Citations](merge-citations/README.md):
+it joins line 1's candidate-addition review to line 3's saved-citation check
+against the same supplied candidate tree. Run
+`python3 -B shared/merge-citations/candidate_citations.py demo`.
+
 Gathering 35 adds [Live Citation Report](merge-citations/README.md) to the
 portable merge-citation bundle. It checks a saved ledger against local sources
 and carries each validated source path into the review queue, including when a

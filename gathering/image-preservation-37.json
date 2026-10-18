@@ -1,0 +1,19 @@
+{
+  "ancestor_sha256": "189c27d0a370241ed973117808f0b8581027585deaf829dd5d198261021a7077",
+  "wall_sha256": "e4c0120fe6a35def7aad5201585395b299bb2860ab540813e0d7a79ea975571e",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "new_mark_rectangle": [
+    681,
+    231,
+    91,
+    63
+  ],
+  "changed_pixels": 754,
+  "changed_pixels_outside_rectangle": 0,
+  "motif": "two irregular ochre loops with one chalk bridge; no hands or handprints"
+}

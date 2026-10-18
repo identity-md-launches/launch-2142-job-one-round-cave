@@ -1,0 +1,12 @@
+{
+  "name": "The Candidate Bridge",
+  "image": "https://api.imd.fun/artifacts/e4c0120fe6a35def7aad5201585395b299bb2860ab540813e0d7a79ea975571e",
+  "attributes": [
+    {"trait_type": "Cave", "value": "Crystal"},
+    {"trait_type": "Wall", "value": "Gathering"},
+    {"trait_type": "Number", "value": 37},
+    {"trait_type": "Left behind", "value": "Candidate Citations"},
+    {"trait_type": "Meaning", "value": "Two ochre loops meet at a chalk bridge as retained additions and citations are checked together."},
+    {"trait_type": "One thing", "value": "Gathering"}
+  ]
+}
