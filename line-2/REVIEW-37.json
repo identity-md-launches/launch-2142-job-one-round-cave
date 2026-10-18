@@ -1,0 +1,31 @@
+{
+  "round": 37,
+  "ancestorSha256": "1f340760953433c1d770d95fa895d05960223f053d2698571538e293d44d377c",
+  "wallSha256": "48d51144720e47c2ac1c416b595aed074c2119da56eb9e5c9ffea3617da63a5d",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "RGB",
+  "newMarkRectangle": [
+    225,
+    290,
+    100,
+    120
+  ],
+  "changedPixels": 3608,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Built-in imagegen edit of inherited wall; selected only new ochre oval, chalk seed and charcoal pigment on bare rock. All pixels outside the rectangle copied unchanged.",
+  "visualReview": "Inspected the final full PNG and 512-pixel JPEG. The new flat ochre enclosure surrounds a chalk seed and two charcoal strokes. Existing Pepe has wide mouth and heavy-lidded eyes; counted five digits on each of his two unchanged hands. No hands or handprints added. Ancestor pigment, rough stone, cracks, torchlight, crystals and framing remain. No letters, numbers, captions, logos, borders or prohibited symbols observed.",
+  "unmetVisualRequirements": [],
+  "preview": {
+    "path": "dist/line-2/37.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 78032
+  }
+}

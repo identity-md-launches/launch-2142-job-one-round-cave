@@ -1,0 +1,30 @@
+{
+  "name": "The Carried Seed",
+  "image": "https://api.imd.fun/artifacts/48d51144720e47c2ac1c416b595aed074c2119da56eb9e5c9ffea3617da63a5d",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 37
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Receipt Capsule"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An ochre enclosure carries a chalk seed with its proof intact."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum account and storage proofs against trusted state roots"
+    }
+  ]
+}

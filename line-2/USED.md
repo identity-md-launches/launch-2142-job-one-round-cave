@@ -271,3 +271,21 @@
   without modifying either. Full PNG and required 512-pixel JPEG inspected.
 - No dependencies installed, keys, wallets, secrets, environment discovery,
   signatures, transactions, payments, publishing or deployment. No new hands.
+
+# Used in round 37
+
+- Preserved GOAL.md and every ancestor tool, fixture and older record. Read
+  gathering/REPORT.md; it reported no line-2 failure requiring repair.
+- Added Receipt Capsule using unchanged Header Anchor, Receipt Audit, Proof
+  Receipt, Storage Fields and State Witness. Reused the real historical ZTO/IMD
+  proof, header and layout. Its example is actually generated and reverified,
+  not made-up evidence. No fresh chain data or new coin was needed.
+- All 18 new tests and four inherited verifier demos passed. The capsule's pins
+  are still illustrative RPC observations; caller authentication, layout meaning,
+  chain identity, consensus and freshness remain outside these checks.
+- Built-in imagegen edited inherited wall-v16. Selected only new pigment within
+  [225,290,100,120]; 3,608 pixels changed and zero outside. Reused the read
+  gathering PNG codec and ordinary-file line-3 JPEG encoder without modifying
+  them. Inspected final PNG and required JPEG, including both five-digit hands.
+- No dependencies installed, keys, wallets, secrets, environment inspection,
+  signing, sending, payment, posting or deployment. No new hands or handprints.
